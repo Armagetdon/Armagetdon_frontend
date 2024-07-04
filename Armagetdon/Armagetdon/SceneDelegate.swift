@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let mainViewController = MainViewController()
         window = UIWindow(windowScene: windowScene)
         //window?.rootViewController = LoginViewController()
-        window?.rootViewController = TabBar()
+        window?.rootViewController = DetailPostViewController()
         window?.makeKeyAndVisible()
     }
 

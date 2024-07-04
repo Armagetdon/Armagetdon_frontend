@@ -15,7 +15,6 @@
 		33B6A4F72C368AE60075776A /* ArmagetdonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A4F62C368AE60075776A /* ArmagetdonTests.swift */; };
 		33B6A5012C368AE60075776A /* ArmagetdonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A5002C368AE60075776A /* ArmagetdonUITests.swift */; };
 		33B6A5032C368AE60075776A /* ArmagetdonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A5022C368AE60075776A /* ArmagetdonUITestsLaunchTests.swift */; };
-		33B6A5142C368D6F0075776A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 33B6A5132C368D6F0075776A /* SnapKit */; };
 		33B6A5162C368DC30075776A /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A5152C368DC30075776A /* MyViewController.swift */; };
 		33B6A5182C368DEE0075776A /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A5172C368DEE0075776A /* RankingViewController.swift */; };
 		33B6A51B2C368F4C0075776A /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A51A2C368F4C0075776A /* Tabbar.swift */; };
@@ -31,6 +30,8 @@
 		33B6A55A2C36AE460075776A /* Pretendard-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33B6A5592C36AE460075776A /* Pretendard-Regular.ttf */; };
 		33B6A55C2C36AE4D0075776A /* Pretendard-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33B6A55B2C36AE4D0075776A /* Pretendard-SemiBold.ttf */; };
 		33B6A55E2C36AE530075776A /* Pretendard-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33B6A55D2C36AE530075776A /* Pretendard-Thin.ttf */; };
+		4F5ACA062C36B05100739B3E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4F5ACA052C36B05100739B3E /* SnapKit */; };
+		4F5ACA0C2C3719BB00739B3E /* DetailPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5ACA0B2C3719BB00739B3E /* DetailPostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		33B6A5592C36AE460075776A /* Pretendard-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.ttf"; sourceTree = "<group>"; };
 		33B6A55B2C36AE4D0075776A /* Pretendard-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.ttf"; sourceTree = "<group>"; };
 		33B6A55D2C36AE530075776A /* Pretendard-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.ttf"; sourceTree = "<group>"; };
+		4F5ACA0B2C3719BB00739B3E /* DetailPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33B6A5142C368D6F0075776A /* SnapKit in Frameworks */,
+				4F5ACA062C36B05100739B3E /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +170,7 @@
 				33B6A52F2C36A4600075776A /* MainItem.swift */,
 				33B6A5312C36A4E30075776A /* VolunteerCell.swift */,
 				33B6A5332C36A50A0075776A /* MainCell.swift */,
+				4F5ACA0B2C3719BB00739B3E /* DetailPostViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -236,7 +239,7 @@
 			);
 			name = Armagetdon;
 			packageProductDependencies = (
-				33B6A5132C368D6F0075776A /* SnapKit */,
+				4F5ACA052C36B05100739B3E /* SnapKit */,
 			);
 			productName = Armagetdon;
 			productReference = 33B6A4DC2C368AE40075776A /* Armagetdon.app */;
@@ -311,7 +314,7 @@
 			);
 			mainGroup = 33B6A4D32C368AE40075776A;
 			packageReferences = (
-				33B6A5122C368D6F0075776A /* XCRemoteSwiftPackageReference "SnapKit" */,
+				4F5ACA042C36B05100739B3E /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 33B6A4DD2C368AE40075776A /* Products */;
 			projectDirPath = "";
@@ -372,6 +375,7 @@
 				33B6A5162C368DC30075776A /* MyViewController.swift in Sources */,
 				33B6A4E22C368AE40075776A /* SceneDelegate.swift in Sources */,
 				33B6A5302C36A4610075776A /* MainItem.swift in Sources */,
+				4F5ACA0C2C3719BB00739B3E /* DetailPostViewController.swift in Sources */,
 				33B6A5342C36A50A0075776A /* MainCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -705,9 +709,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		33B6A5122C368D6F0075776A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		4F5ACA042C36B05100739B3E /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 5.7.1;
@@ -716,9 +720,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		33B6A5132C368D6F0075776A /* SnapKit */ = {
+		4F5ACA052C36B05100739B3E /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 33B6A5122C368D6F0075776A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = 4F5ACA042C36B05100739B3E /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
