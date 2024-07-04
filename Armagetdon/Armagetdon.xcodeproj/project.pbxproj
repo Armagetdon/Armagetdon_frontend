@@ -18,7 +18,26 @@
 		33B6A5142C368D6F0075776A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 33B6A5132C368D6F0075776A /* SnapKit */; };
 		33B6A5162C368DC30075776A /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A5152C368DC30075776A /* MyViewController.swift */; };
 		33B6A5182C368DEE0075776A /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A5172C368DEE0075776A /* RankingViewController.swift */; };
+<<<<<<< Updated upstream
 		33B6A51B2C368F4C0075776A /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A51A2C368F4C0075776A /* Tabbar.swift */; };
+=======
+		33B6A51B2C368F4C0075776A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A51A2C368F4C0075776A /* TabBar.swift */; };
+		33B6A5302C36A4610075776A /* MainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A52F2C36A4600075776A /* MainItem.swift */; };
+		33B6A5322C36A4E30075776A /* ThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A5312C36A4E30075776A /* ThumbnailCell.swift */; };
+		33B6A5342C36A50A0075776A /* MainPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A5332C36A50A0075776A /* MainPostCell.swift */; };
+		33B6A54E2C36AE180075776A /* Pretendard-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33B6A54D2C36AE180075776A /* Pretendard-Black.ttf */; };
+		33B6A5502C36AE220075776A /* Pretendard-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33B6A54F2C36AE220075776A /* Pretendard-Bold.ttf */; };
+		33B6A5522C36AE290075776A /* Pretendard-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33B6A5512C36AE290075776A /* Pretendard-ExtraBold.ttf */; };
+		33B6A5542C36AE310075776A /* Pretendard-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33B6A5532C36AE310075776A /* Pretendard-ExtraLight.ttf */; };
+		33B6A5562C36AE380075776A /* Pretendard-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33B6A5552C36AE380075776A /* Pretendard-Light.ttf */; };
+		33B6A5582C36AE3F0075776A /* Pretendard-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33B6A5572C36AE3F0075776A /* Pretendard-Medium.ttf */; };
+		33B6A55A2C36AE460075776A /* Pretendard-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33B6A5592C36AE460075776A /* Pretendard-Regular.ttf */; };
+		33B6A55C2C36AE4D0075776A /* Pretendard-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33B6A55B2C36AE4D0075776A /* Pretendard-SemiBold.ttf */; };
+		33B6A55E2C36AE530075776A /* Pretendard-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33B6A55D2C36AE530075776A /* Pretendard-Thin.ttf */; };
+		33B6A5602C36CC630075776A /* CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A55F2C36CC630075776A /* CustomNavBar.swift */; };
+		33B6A5662C3715B60075776A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A5652C3715B60075776A /* RegisterViewController.swift */; };
+		33B6A5682C371EE80075776A /* CustomNavBar2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B6A5672C371EE80075776A /* CustomNavBar2.swift */; };
+>>>>>>> Stashed changes
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +72,26 @@
 		33B6A5022C368AE60075776A /* ArmagetdonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmagetdonUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		33B6A5152C368DC30075776A /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		33B6A5172C368DEE0075776A /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
 		33B6A51A2C368F4C0075776A /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+=======
+		33B6A51A2C368F4C0075776A /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		33B6A52F2C36A4600075776A /* MainItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainItem.swift; sourceTree = "<group>"; };
+		33B6A5312C36A4E30075776A /* ThumbnailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailCell.swift; sourceTree = "<group>"; };
+		33B6A5332C36A50A0075776A /* MainPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPostCell.swift; sourceTree = "<group>"; };
+		33B6A54D2C36AE180075776A /* Pretendard-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.ttf"; sourceTree = "<group>"; };
+		33B6A54F2C36AE220075776A /* Pretendard-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.ttf"; sourceTree = "<group>"; };
+		33B6A5512C36AE290075776A /* Pretendard-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.ttf"; sourceTree = "<group>"; };
+		33B6A5532C36AE310075776A /* Pretendard-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.ttf"; sourceTree = "<group>"; };
+		33B6A5552C36AE380075776A /* Pretendard-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.ttf"; sourceTree = "<group>"; };
+		33B6A5572C36AE3F0075776A /* Pretendard-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.ttf"; sourceTree = "<group>"; };
+		33B6A5592C36AE460075776A /* Pretendard-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.ttf"; sourceTree = "<group>"; };
+		33B6A55B2C36AE4D0075776A /* Pretendard-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.ttf"; sourceTree = "<group>"; };
+		33B6A55D2C36AE530075776A /* Pretendard-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.ttf"; sourceTree = "<group>"; };
+		33B6A55F2C36CC630075776A /* CustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
+		33B6A5652C3715B60075776A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		33B6A5672C371EE80075776A /* CustomNavBar2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBar2.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +177,13 @@
 			isa = PBXGroup;
 			children = (
 				33B6A4E32C368AE40075776A /* MainViewController.swift */,
+<<<<<<< Updated upstream
+=======
+				33B6A52F2C36A4600075776A /* MainItem.swift */,
+				33B6A5312C36A4E30075776A /* ThumbnailCell.swift */,
+				33B6A5332C36A50A0075776A /* MainPostCell.swift */,
+				33B6A55F2C36CC630075776A /* CustomNavBar.swift */,
+>>>>>>> Stashed changes
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -162,11 +207,39 @@
 		33B6A5192C368E090075776A /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
-				33B6A51A2C368F4C0075776A /* Tabbar.swift */,
+				33B6A51A2C368F4C0075776A /* TabBar.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
+=======
+		33B6A5352C36A6B90075776A /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				33B6A5652C3715B60075776A /* RegisterViewController.swift */,
+				33B6A5672C371EE80075776A /* CustomNavBar2.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		33B6A54C2C36ADE60075776A /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				33B6A54D2C36AE180075776A /* Pretendard-Black.ttf */,
+				33B6A54F2C36AE220075776A /* Pretendard-Bold.ttf */,
+				33B6A5512C36AE290075776A /* Pretendard-ExtraBold.ttf */,
+				33B6A5532C36AE310075776A /* Pretendard-ExtraLight.ttf */,
+				33B6A5552C36AE380075776A /* Pretendard-Light.ttf */,
+				33B6A5572C36AE3F0075776A /* Pretendard-Medium.ttf */,
+				33B6A5592C36AE460075776A /* Pretendard-Regular.ttf */,
+				33B6A55B2C36AE4D0075776A /* Pretendard-SemiBold.ttf */,
+				33B6A55D2C36AE530075776A /* Pretendard-Thin.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+>>>>>>> Stashed changes
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -304,11 +377,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				33B6A5182C368DEE0075776A /* RankingViewController.swift in Sources */,
+				33B6A5682C371EE80075776A /* CustomNavBar2.swift in Sources */,
+				33B6A5662C3715B60075776A /* RegisterViewController.swift in Sources */,
 				33B6A4E42C368AE40075776A /* MainViewController.swift in Sources */,
+<<<<<<< Updated upstream
+=======
+				33B6A5322C36A4E30075776A /* ThumbnailCell.swift in Sources */,
+>>>>>>> Stashed changes
 				33B6A4E02C368AE40075776A /* AppDelegate.swift in Sources */,
-				33B6A51B2C368F4C0075776A /* Tabbar.swift in Sources */,
+				33B6A5602C36CC630075776A /* CustomNavBar.swift in Sources */,
+				33B6A51B2C368F4C0075776A /* TabBar.swift in Sources */,
 				33B6A5162C368DC30075776A /* MyViewController.swift in Sources */,
 				33B6A4E22C368AE40075776A /* SceneDelegate.swift in Sources */,
+<<<<<<< Updated upstream
+=======
+				33B6A5302C36A4610075776A /* MainItem.swift in Sources */,
+				33B6A5342C36A50A0075776A /* MainPostCell.swift in Sources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
