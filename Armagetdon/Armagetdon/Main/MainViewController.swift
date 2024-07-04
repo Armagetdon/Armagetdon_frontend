@@ -8,13 +8,6 @@
 import UIKit
 
 class MainViewController: UIViewController {
-<<<<<<< Updated upstream
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        self.view.backgroundColor = .red
-=======
     let thumbnailData = MainItem.thumbnailDataList
     let mainpostData = MainItem.mainpostDataList
     
@@ -218,7 +211,6 @@ extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSour
         default:
             return CGSize(width: 0, height: 0)
         }
->>>>>>> Stashed changes
     }
 
 
